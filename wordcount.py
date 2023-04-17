@@ -73,7 +73,9 @@ def print_top(filename):
   ##print(l)
   ##print()
   i = 0
-  while i<20:
+  ##in small.txt there is not 20 different words so this is going to 
+  ##show error so instead use: while i<len(l)-1
+  while i<20: 
     if l[i]==1:
       for key in d:
         if d[key]==1:
